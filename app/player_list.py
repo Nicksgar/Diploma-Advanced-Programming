@@ -10,6 +10,8 @@ head and tail properties are used to access the head and tail nodes of the list.
 is_empty method checks if the list is empty by verifying if the head pointer is None.
 
 """
+from app.player_node import PlayerNode
+
 
 class PlayerList:
     def __init__(self):
@@ -18,6 +20,35 @@ class PlayerList:
         """
         self._head = None  # Head of the linked list
         self._tail = None  # Tail of the linked list
+
+    def is_empty(self):
+        return self._head is None
+
+    def insert_at_head(self, player):
+        new_node = PlayerNode(player)  # Creating a new PlayerNode
+        if self.is_empty():
+            self._head = new_node
+            self._tail = new_node
+        else:
+            new_node.next = self._head
+            self._head.prev = new_node
+            self._head = new_node
+
+    def insert_at_tail(self, player):
+        """
+        Inserts the player at the tail of the list.
+        :param self:
+        :param player: player object to be added to the list.
+        :return:
+        """
+        new_node = PlayerNode(player)
+        if self.is_empty():
+            self._head = new_node
+            self._tail = new_node
+        else:
+            new_node.prev = self._tail
+            self._tail.next = new_node
+            self._tail = new_node
 
     @property
     def head(self):
@@ -36,11 +67,3 @@ class PlayerList:
             PlayerNode: The tail node of the list.
         """
         return self._tail
-
-    def is_empty(self):
-        """
-        Check if the list is empty.
-        Returns:
-            bool: True if the list is empty, False otherwise.
-        """
-        return self._head is None  # Return True if head is None

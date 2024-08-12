@@ -1,48 +1,49 @@
 # app/player_node.py
 
-class player_node:
+class PlayerNode:
     def __init__(self, player):
         """
         Initialize a node to hold a player and pointers to the next and previous nodes.
         Args:
-        player (Player): The player object contained in the node.
+            player (Player): The player object contained in the node.
         """
-        self.player = player  # The player object
-        self._next = None # Pointer to the next node
-        self._prev = None # Pointer to the previous node
-@property
-def player(self):
-    """
-     Get the player object in the node.
+        self._player = player  # The player object
+        self._next = None  # Pointer to the next node
+        self._prev = None  # Pointer to the previous node
+
+    @property
+    def player(self):
+        """
+        Get the player object in the node.
         Returns:
             Player: The player object.
-            :param: This keyword is used to describe a parameter of a function or method.
-            :return: This keyword is used to describe the return value of a function or method.
-    :param self:
-    :return:
-    """
-@property
-def next(self):
-    """
-    Get the next node in the node.
-    playernode: The next node in the node.
-    :return: This keyword is used to describe a parameter of a function or method.
-    """
-    return self._next
+        """
+        return self._player
 
-@next.setter
-def next(self, node):
-    """
-    Set the next node in the node.
-    node (PlayerNode): The next node to set.
-    """
-    self._next = node
-@property
+    @property
+    def next(self):
+        """
+        Get the next node.
+        Returns:
+            PlayerNode: The next node in the list.
+        """
+        return self._next
+
+    @next.setter
+    def next(self, node):
+        """
+        Set the next node.
+        Args:
+            node (PlayerNode): The next node to set.
+        """
+        self._next = node
+
+    @property
     def prev(self):
         """
         Get the previous node.
         Returns:
-            PlayerNode: The previous node.
+            PlayerNode: The previous node in the list.
         """
         return self._prev
 

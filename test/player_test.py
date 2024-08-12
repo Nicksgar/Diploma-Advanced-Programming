@@ -21,14 +21,14 @@ class TestPlayer(unittest.TestCase):
         """
         Test if the player's unique ID is set and retrieved correctly.
         """
-        player = Player("123", "John")
-        self.assertEqual(player.uid, "123")  # Check if the UID is correct
+        player = Player("1", "John")
+        self.assertEqual(player.uid, "1")  # Check if the UID is correct
 
     def test_player_name(self):
         """
         Test if the player's name is set and retrieved correctly.
         """
-        player = Player("123", "John")
+        player = Player("1", "John")
         self.assertEqual(player.name, "John")  # Check if the name is correct
 
 if __name__ == "__main__":
