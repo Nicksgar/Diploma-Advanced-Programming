@@ -49,6 +49,33 @@ class PlayerList:
             new_node.prev = self._tail
             self._tail.next = new_node
             self._tail = new_node
+    def delete_from_head(self):
+        if self.is_empty():
+            return None
+        removed_node = self._head
+        if self._head == self._tail: # Only one node
+            self._head = None
+            self._tail = None
+        else:
+            self._head = self._head.next
+            self._head.prev = none
+        return removed_node
+
+    def delete_from_tail(self):
+        if self.is_empty():
+            return None
+        removed_node = self._tail
+        if self._head == self._tail:
+            self._head = None
+            self._tail = None
+        else:
+            self._tail = self._tail.prev
+            self._tail.next = None
+        return removed_node
+
+
+
+
 
     @property
     def head(self):
