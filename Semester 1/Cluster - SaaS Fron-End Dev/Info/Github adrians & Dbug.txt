@@ -1,0 +1,24 @@
+SaaS FED Notes Repo:
+
+AdyGCode/SaaS-FED-Notes (github.com)
+
+SaaS FED PHP Sample Code Repo
+
+AdyGCode/SaaS-FED-2024-S2-PHP: PHP sample code (NO Framework) (github.com)
+
+Version Control Notes
+
+AdyGCode/Intro-to-Version-Control: Notes and exercises on Version Control (github.com)
+
+PHP XDebug:
+
+Xdebug is an extension for PHP, and provides a range of features to improve the PHP development experience.
+Xdebug - Debugger and Profiler Tool for PHP
+Xdebug: A powerful debugger for PHP
+
+Derick Rethans, as in derick@xdebug.org
+Downloads for X-Debug versions (Only use the Threadsafe versions):
+
+PHP 8.1 VS16 TS (64 bit)
+PHP 8.2 VS16 TS (64 bit)
+PHP 8.3 VS16 TS (64 bit)

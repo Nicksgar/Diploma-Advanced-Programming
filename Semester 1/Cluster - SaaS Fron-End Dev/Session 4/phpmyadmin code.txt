@@ -1,0 +1,29 @@
+# clean up existing database and user
+DROP DATABASE IF EXISTS NS_SaaS_FED_2024_S2;
+DROP USER IF EXISTS 'NS_SaaS_FED_2024_S2'@'localhost';
+
+# Create Database
+CREATE DATABASE IF NOT EXISTS NS_SaaS_FED_2024_S2;
+
+# Create user and Grant permission
+CREATE USER 'NS_SaaS_FED_2024_S2'@'localhost'
+        IDENTIFIED WITH mysql_native_password
+          BY 'Password1234';
+
+GRANT USAGE ON *.*
+  TO 'NS_SaaS_FED_2024_S2'@'localhost'
+  
+GRANT ALL PRIVILEGES
+    ON 'NS\_SaaS\_FED\_2024\_S2'
+    TO 'NS_SaaS_FED_2024_S2'@'localhost'
+    
+## Use the new database and create table
+USE NS_SaaS_FED_2024_S2;
+
+CREATE TABLE demo(
+    id    BIGINT UNSIGNED AUTO_INCREMENT PRIMARY KEY
+    name  VARCHAR(255) NOT NULL
+    colour VARCHAR(128) DEFAULT 'UNKNOWN',
+    owned BOOLEAN DEFAULT FALSE 
+
+);

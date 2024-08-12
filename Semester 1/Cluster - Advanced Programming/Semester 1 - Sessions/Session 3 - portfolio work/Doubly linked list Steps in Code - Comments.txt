@@ -1,0 +1,10 @@
+In this code:
+
+We have a Player class to store player information.
+
+We create a Node class to represent each element in the doubly linked list. Each Node object stores a Player object and has pointers to the next and previous nodes.
+
+The DoublyLinkedList class manages the list. It has methods to append players to the list and print the list.
+We create an instance of DoublyLinkedList and add Player objects to it.
+
+The print_list method traverses the list from the head to the tail, printing the player details.

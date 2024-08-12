@@ -1,0 +1,35 @@
+
+In today's session, we followed the video here: data structures
+
+https://youtu.be/cOfhwxirhUE
+
+activities with demos:
+
+https://www.w3resource.com/python-exercises/data-structures-and-algorithms/python-linked-list.php
+
+NOTES:
+
+The self Parameter:
+
+Imagine you’re baking cookies. Each cookie is like an object, and the recipe (class) tells you how to make them.
+When you follow the recipe, you need to know which cookie you’re working with. That’s where self comes in.
+self is like a label that says, “Hey, I’m working on this specific cookie!” It helps methods (steps in the recipe) know which cookie they’re dealing with.
+
+Why Do We Need self?
+
+Without self, methods wouldn’t know which cookie to work on. They’d be lost!
+By including self as a parameter, we make sure methods can access the right cookie’s ingredients (attributes) and perform actions (methods) on it.
+
+Private Attributes:
+
+Imagine you have secret cookie ingredients (attributes) that you don’t want others to see.
+
+To keep them private, you can put them in a hidden box (class) and lock it.
+
+In Python, we use a single underscore (_) to say, “This ingredient is private, don’t mess with it!”
+
+Double underscores (__) make it even more secret (like a double lock).
+
+So, self helps methods work with specific cookies, and private attributes keep our secret ingredients safe! 🍪🔒 
+
+If you have more questions, feel free to ask! 😊

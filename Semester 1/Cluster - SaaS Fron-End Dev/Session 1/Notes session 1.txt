@@ -1,0 +1,138 @@
+PHP
+
+SQlite/Madiadb/Mysql
+NodeJS
+PHPstorm
+Tailwindcss
+Laragon - ma - doca?
+
+Jetbrains - ma -toolbox app : https://account.jetbrains.com/licenses
+
+
+GITHub - ha
+Git - ma
+MyBib
+microsoft terminal
+
+https://help.screencraft.net.au/
+
+https://help.screencraft.net.au/hc/2680392001/66/add-bash-command-line-aliases-for-git?category_id=35
+
+alt shift - splits terminal into 2
+
+GitBash terminal notes/CODE:
+
+ED+20136105@NMT-181869 MINGW64 ~/Source/Repos
+$ pwd
+/c/Users/20136105/Source/Repos
+
+ED+20136105@NMT-181869 MINGW64 ~/Source/Repos
+$ mkdir test
+
+ED+20136105@NMT-181869 MINGW64 ~/Source/Repos
+$ ls
+test
+
+ED+20136105@NMT-181869 MINGW64 ~/Source/Repos
+$ ls -la
+total 0
+drwxr-xr-x 1 ED+20136105 3221225985 0 Jul 17 11:10 .
+drwxr-xr-x 1 ED+20136105 3221225985 0 Jul 17 11:02 ..
+drwxr-xr-x 1 ED+20136105 3221225985 0 Jul 17 11:10 test
+
+ED+20136105@NMT-181869 MINGW64 ~/Source/Repos
+$ ls -a
+.  ..  test
+
+ED+20136105@NMT-181869 MINGW64 ~/Source/Repos
+$ touch test.txt
+
+ED+20136105@NMT-181869 MINGW64 ~/Source/Repos
+$ ls -la
+total 0
+drwxr-xr-x 1 ED+20136105 3221225985 0 Jul 17 11:12 .
+drwxr-xr-x 1 ED+20136105 3221225985 0 Jul 17 11:02 ..
+drwxr-xr-x 1 ED+20136105 3221225985 0 Jul 17 11:10 test
+-rw-r--r-- 1 ED+20136105 3221225985 0 Jul 17 11:12 test.txt
+
+ED+20136105@NMT-181869 MINGW64 ~/Source/Repos
+$ cd test
+
+ED+20136105@NMT-181869 MINGW64 ~/Source/Repos/test
+$ pwd
+/c/Users/20136105/Source/Repos/test
+
+ED+20136105@NMT-181869 MINGW64 ~/Source/Repos/test
+$ ls -a
+.  ..
+
+ED+20136105@NMT-181869 MINGW64 ~/Source/Repos/test
+$ mkdir -p assets/{css,js,img,downloads}
+
+ED+20136105@NMT-181869 MINGW64 ~/Source/Repos/test
+$ ls -a
+.  ..  assets
+
+ED+20136105@NMT-181869 MINGW64 ~/Source/Repos/test
+$ ls -a assets/
+.  ..  css  downloads  img  js
+
+ED+20136105@NMT-181869 MINGW64 ~/Source/Repos/test
+$ ls -la assets/css/
+total 0
+drwxr-xr-x 1 ED+20136105 3221225985 0 Jul 17 11:18 .
+drwxr-xr-x 1 ED+20136105 3221225985 0 Jul 17 11:18 ..
+
+ED+20136105@NMT-181869 MINGW64 ~/Source/Repos/test
+$ touch index.html
+
+ED+20136105@NMT-181869 MINGW64 ~/Source/Repos/test
+$ ls
+assets  index.html
+
+ED+20136105@NMT-181869 MINGW64 ~/Source/Repos/test
+$ touch oops
+
+ED+20136105@NMT-181869 MINGW64 ~/Source/Repos/test
+$ ls -la
+total 0
+drwxr-xr-x 1 ED+20136105 3221225985 0 Jul 17 11:25 .
+drwxr-xr-x 1 ED+20136105 3221225985 0 Jul 17 11:12 ..
+drwxr-xr-x 1 ED+20136105 3221225985 0 Jul 17 11:18 assets
+-rw-r--r-- 1 ED+20136105 3221225985 0 Jul 17 11:25 index.html
+-rw-r--r-- 1 ED+20136105 3221225985 0 Jul 17 11:25 oops
+
+ED+20136105@NMT-181869 MINGW64 ~/Source/Repos/test
+$ rm oops
+
+ED+20136105@NMT-181869 MINGW64 ~/Source/Repos/test
+$ ls -la
+total 0
+drwxr-xr-x 1 ED+20136105 3221225985 0 Jul 17 11:25 .
+drwxr-xr-x 1 ED+20136105 3221225985 0 Jul 17 11:12 ..
+drwxr-xr-x 1 ED+20136105 3221225985 0 Jul 17 11:18 assets
+-rw-r--r-- 1 ED+20136105 3221225985 0 Jul 17 11:25 index.html
+
+ED+20136105@NMT-181869 MINGW64 ~/Source/Repos/test
+$ rm -rf *
+
+ED+20136105@NMT-181869 MINGW64 ~/Source/Repos/test
+$ la -la
+bash: la: command not found
+
+ED+20136105@NMT-181869 MINGW64 ~/Source/Repos/test
+$ ls -la
+total 0
+drwxr-xr-x 1 ED+20136105 3221225985 0 Jul 17 11:27 .
+drwxr-xr-x 1 ED+20136105 3221225985 0 Jul 17 11:12 ..
+
+ED+20136105@NMT-181869 MINGW64 ~/Source/Repos/test
+$ alias
+
+ED+20136105@NMT-181869 MINGW64 ~/Source/Repos/test
+$ nano /c/Users/20136105/.bashrc
+
+ED+20136105@NMT-181869 MINGW64 ~/Source/Repos/test
+$
+
+

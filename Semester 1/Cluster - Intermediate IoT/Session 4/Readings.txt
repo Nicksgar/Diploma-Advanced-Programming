@@ -1,0 +1,6 @@
+Arduino INPUT_PULLUP Explained (pinMode) (https://roboticsbackend.com/arduino-input_pullup-pinmode/) 
+Standard Resistor values (https://eepower.com/resistor-guide/resistor-standards-and-codes/resistor-values/)
+Five Arduino math fixes for when it is wrong (https://www.baldengineer.com/arduino-math-fixes.html)
+How to Reset an Arduino Using Code (https://www.thegeekpub.com/276838/how-to-reset-an-arduino-using-code/)
+Arduino OOP (https://roboticsbackend.com/arduino-object-oriented-programming-oop/)
+Under the hood: ESP32 - https://youtube.com/shorts/KK-TJ4ovy2Y?si=zOvU1hA96NUO7XMn

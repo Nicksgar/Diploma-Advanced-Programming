@@ -1,0 +1,23 @@
+Course linksCourse links
+Weekly demo code repository:
+
+https://github.com/NM-TAFE/diploma-adv-prog-python/tree/2024/s1
+
+Our key external resource:
+
+https://exercism.org/
+
+https://exercism.org/tracks/python/exercises/simple-linked-list
+
+
+Course textbook for term 1:
+
+https://learning.oreilly.com/library/view/grokking-algorithms/9781617292231/
+
+Get up to speed with Python:
+
+https://learning.oreilly.com/library/view/python-crash-course/9781098156664/
+
+ARGON2:
+
+https://pypi.org/project/argon2-cffi/
