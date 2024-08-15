@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="c53022aa-9587-4266-86fc-e2e17247a115" name="Changes" comment="insert delete from head and tail">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/player_list.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/player_list.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/player_list_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/player_list_test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,18 +24,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "sgarnii"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;sgarnii&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Nicksgar/Diploma-Advanced-Programming.git",
-    "accountId": "4e479cf5-da60-47d6-9c4f-e3e6216ad5a9"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Nicksgar/Diploma-Advanced-Programming.git&quot;,
+    &quot;accountId&quot;: &quot;4e479cf5-da60-47d6-9c4f-e3e6216ad5a9&quot;
   }
-}]]></component>
+}</component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -41,33 +43,36 @@
   &quot;associatedIndex&quot;: 5
 }</component>
   <component name="ProjectId" id="2kEzvU0VuEGnFGfxHkoT2BX9kdj" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python tests.Python tests in player_list_test.py.executor": "Run",
-    "Python tests.Python tests in player_test.py.executor": "Run",
-    "Python.hash.executor": "Run",
-    "Python.pearson_hash.executor": "Run",
-    "Python.player.executor": "Run",
-    "Python.player_list.executor": "Run",
-    "Python.player_node.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/NickS/OneDrive/Desktop/North Metro Tafe/Diploma Advanced Programming/Semester 1/Cluster - Advanced Programming/Por-Asst-Task-1 v1.4",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Python tests.Python tests in player_list_test.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in player_test.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python.hash.executor&quot;: &quot;Run&quot;,
+    &quot;Python.pearson_hash.executor&quot;: &quot;Run&quot;,
+    &quot;Python.player.executor&quot;: &quot;Run&quot;,
+    &quot;Python.player_list.executor&quot;: &quot;Run&quot;,
+    &quot;Python.player_node.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/NickS/OneDrive/Desktop/North Metro Tafe/Diploma Advanced Programming/Semester 1/Cluster - Advanced Programming/Por-Asst-Task-1 v1.4&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\NickS\OneDrive\Desktop\North Metro Tafe\Diploma Advanced Programming\Semester 1\Cluster - Advanced Programming\Por-Asst-Task-1 v1.4\SRUS-NS-Games\.venv\Scripts" />
@@ -110,7 +115,8 @@
       <workItem from="1723452015516" duration="257000" />
       <workItem from="1723452280568" duration="796000" />
       <workItem from="1723453089848" duration="321000" />
-      <workItem from="1723688947911" duration="2973000" />
+      <workItem from="1723688947911" duration="4163000" />
+      <workItem from="1723696643669" duration="256000" />
     </task>
     <task id="LOCAL-00001" summary="2nd commit - upto step 5">
       <option name="closed" value="true" />
@@ -168,7 +174,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723692378171</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="insert delete from head and tail">
+      <option name="closed" value="true" />
+      <created>1723692925153</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1723692925153</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -186,6 +200,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="2nd commit - upto step 5" />
     <MESSAGE value="everything upto step 6 running refractor interprator" />
     <MESSAGE value="insert delete from head and tail" />
@@ -202,7 +217,7 @@
     <SUITE FILE_PATH="coverage/player_list_py$player_list.coverage" NAME="player_list Coverage Results" MODIFIED="1723690851416" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app" />
     <SUITE FILE_PATH="coverage/player_list_py$player.coverage" NAME="player Coverage Results" MODIFIED="1723690874174" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app" />
     <SUITE FILE_PATH="coverage/SRUS_NS_Games$player_list.coverage" NAME="player_list Coverage Results" MODIFIED="1722863886101" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app" />
-    <SUITE FILE_PATH="coverage/player_list_py$.coverage" NAME=" Coverage Results" MODIFIED="1723690864524" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/player_list_py$.coverage" NAME=" Coverage Results" MODIFIED="1723696886691" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/player_py$player.coverage" NAME="player Coverage Results" MODIFIED="1723451782463" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app" />
     <SUITE FILE_PATH="coverage/player_node_py$player_node.coverage" NAME="player_node Coverage Results" MODIFIED="1723435344400" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app" />
     <SUITE FILE_PATH="coverage/hash_py$hash.coverage" NAME="hash Coverage Results" MODIFIED="1722934995443" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app" />

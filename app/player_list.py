@@ -58,7 +58,7 @@ class PlayerList:
             self._tail = None
         else:
             self._head = self._head.next
-            self._head.prev = none
+            self._head.prev = None
         return removed_node
 
     def delete_from_tail(self):
@@ -73,6 +73,32 @@ class PlayerList:
             self._tail.next = None
         return removed_node
 
+    def delete_by_key(self, key):
+        current = self._head
+        while current is not None:
+            if current.key == key:
+                if current == self._head:
+                    return self.delete_from_head()
+                elif current == self._tail:
+                    return self.delete_from_tail()
+                else:
+                    current.prev.next = current.next
+                    current.next.prev = current.prev
+                    return current
+            current = current.next
+        return None
+
+    def display(self, forward=True):
+        if forward:
+            current = self._head
+            while current is not None:
+                print(current)
+                current = current.next
+        else:
+            current = self._tail
+            while current is not None:
+                print(current)
+                current = current.prev
 
 
 
