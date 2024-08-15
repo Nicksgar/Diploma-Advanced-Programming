@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c53022aa-9587-4266-86fc-e2e17247a115" name="Changes" comment="insert delete from head and tail">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="c53022aa-9587-4266-86fc-e2e17247a115" name="Changes" comment="insert delete from head and tail" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,6 +20,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Nicksgar/Diploma-Advanced-Programming.git",
+    "accountId": "4e479cf5-da60-47d6-9c4f-e3e6216ad5a9"
+  }
+}]]></component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -98,7 +102,7 @@
       <workItem from="1723452015516" duration="257000" />
       <workItem from="1723452280568" duration="796000" />
       <workItem from="1723453089848" duration="321000" />
-      <workItem from="1723688947911" duration="1854000" />
+      <workItem from="1723688947911" duration="2266000" />
     </task>
     <task id="LOCAL-00001" summary="2nd commit - upto step 5">
       <option name="closed" value="true" />
@@ -132,7 +136,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723691621945</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="insert delete from head and tail">
+      <option name="closed" value="true" />
+      <created>1723692028703</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1723692028703</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
