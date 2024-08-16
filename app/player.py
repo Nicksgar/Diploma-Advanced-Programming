@@ -47,5 +47,5 @@ class Player:
         Returns:
             str: Human-readable string representing the player.
         """
-        return f"Player(uid={self.uid}, name={self.name})"
+        return f"Player(uid={self._uid}, name={self._name})"
 
