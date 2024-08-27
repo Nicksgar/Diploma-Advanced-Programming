@@ -13,7 +13,7 @@ class PlayerNode:
         self._prev = None  # Pointer to the previous node
 
     @property
-    def player(self):
+    def player(self) -> Player:
         """
         Get the player object in the node.
         Returns:
@@ -22,7 +22,7 @@ class PlayerNode:
         return self._player
 
     @property
-    def next(self):
+    def next(self) -> 'PlayerNode':
         """
         Get the next node.
         Returns:
@@ -31,7 +31,7 @@ class PlayerNode:
         return self._next
 
     @next.setter
-    def next(self, node):
+    def next(self, node: 'PlayerNode'):
         """
         Set the next node.
         Args:
@@ -40,7 +40,7 @@ class PlayerNode:
         self._next = node
 
     @property
-    def prev(self):
+    def prev(self) -> 'PlayerNode':
         """
         Get the previous node.
         Returns:
@@ -49,7 +49,7 @@ class PlayerNode:
         return self._prev
 
     @prev.setter
-    def prev(self, node):
+    def prev(self, node: 'PlayerNode'):
         """
         Set the previous node.
         Args:
@@ -58,7 +58,7 @@ class PlayerNode:
         self._prev = node
 
     @property
-    def key(self):
+    def key(self) -> str:
         """
         Get the unique ID of the player.
         Returns:
@@ -66,7 +66,7 @@ class PlayerNode:
         """
         return self._player.uid
 
-    def __str__(self):
+    def __str__(self) -> str:
         """
         Return a string representation of the node.
         Returns:

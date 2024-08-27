@@ -10,8 +10,8 @@ head and tail properties are used to access the head and tail nodes of the list.
 is_empty method checks if the list is empty by verifying if the head pointer is None.
 
 """
+from app.player import Player
 from app.player_node import PlayerNode
-
 
 class PlayerList:
     def __init__(self):
