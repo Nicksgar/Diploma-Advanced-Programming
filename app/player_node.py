@@ -1,7 +1,8 @@
 # app/player_node.py
+from app.player import Player # importing player class
 
 class PlayerNode:
-    def __init__(self, player):
+    def __init__(self, player: Player):
         """
         Initialize a node to hold a player and pointers to the next and previous nodes.
         Args:
