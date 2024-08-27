@@ -49,3 +49,7 @@ class Player:
         """
         return f"Player(uid={self._uid}, name={self._name})"
 
+if __name__ == "__main__":
+    # Example usage: create and print a player
+    player = Player("1", "Alice")
+    print(player)
