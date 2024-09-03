@@ -10,7 +10,7 @@ head and tail properties are used to access the head and tail nodes of the list.
 is_empty method checks if the list is empty by verifying if the head pointer is None.
 
 """
-from app.player import Player
+
 from app.player_node import PlayerNode
 
 class PlayerList:
@@ -24,7 +24,7 @@ class PlayerList:
     def is_empty(self):
         return self._head is None
 
-    def insert_at_head(self, player):
+    def insert_at_head(self, player):  # Method to insert the new player at the head of the list
         new_node = PlayerNode(player)  # Creating a new PlayerNode
         if self.is_empty():
             self._head = new_node
@@ -73,34 +73,56 @@ class PlayerList:
             self._tail.next = None
         return removed_node
 
-    def delete_by_key(self, key):
+    # def delete_by_key(self, key):
+    #     current = self._head
+    #     while current is not None:
+    #         if current.key == key:
+    #             if current == self._head:
+    #                 return self.delete_from_head()
+    #             elif current == self._tail:
+    #                 return self.delete_from_tail()
+    #             else:
+    #                 current.prev.next = current.next
+    #                 current.next.prev = current.prev
+    #                 return current
+    #         current = current.next
+    #     return None
+
+    def delete_by_key(self, key):            # Corrected
         current = self._head
-        while current is not None:
-            if current.key == key:
+        while current:
+            if current.player.uid == key:
                 if current == self._head:
                     return self.delete_from_head()
                 elif current == self._tail:
                     return self.delete_from_tail()
                 else:
-                    current.prev.next = current.next
-                    current.next.prev = current.prev
+                    current.prev.next = current.next    # linking the prev node to the next node
+                    if current.next:
+                        current.next.prev = current.prev    # linking the next node to the prev node
                     return current
             current = current.next
         return None
 
     def display(self, forward=True):
+        result = []
         if forward:
             current = self._head
-            while current is not None:
-                print(current)
+            while current:
+                prev_uid = current.prev.player.uid if current.prev else None
+                next_uid = current.next.player.uid if current.next else None
+                result.append(
+                    f"UID: {current.player.uid}, Name: {current.player.name}, Prev: {prev_uid}, Next: {next_uid}")
                 current = current.next
         else:
             current = self._tail
-            while current is not None:
-                print(current)
+            while current:
+                prev_uid = current.prev.player.uid if current.prev else None
+                next_uid = current.next.player.uid if current.next else None
+                result.append(
+                    f"UID: {current.player.uid}, Name: {current.player.name}, Prev: {prev_uid}, Next: {next_uid}")
                 current = current.prev
-
-
+        return "\n".join(result)
 
 
     @property

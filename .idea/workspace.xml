@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c53022aa-9587-4266-86fc-e2e17247a115" name="Changes" comment="Fix syntax error in PlayerNode key method and update unittest imports">
+    <list default="true" id="c53022aa-9587-4266-86fc-e2e17247a115" name="Changes" comment="print option to player.py">
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/player.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/player.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/player_list.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/player_list.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/player_node.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/player_node.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/player_list_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/player_list_test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +55,14 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Python tests.Python tests for player_list_test.TestPlayerList.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests for player_list_test.TestPlayerList.test_delete_by_key.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for player_list_test.TestPlayerList.test_delete_from_head.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for player_list_test.TestPlayerList.test_delete_from_tail.executor&quot;: &quot;Debug&quot;,
+    &quot;Python tests.Python tests for player_list_test.TestPlayerList.test_display.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for player_list_test.TestPlayerList.test_insert_at_head.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for player_list_test.TestPlayerList.test_insert_at_tail.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for player_test.TestPlayer.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests for player_test.TestPlayer.test_player_name.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests for player_test.TestPlayer.test_player_uid.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests in player_list_test.py.executor&quot;: &quot;Run&quot;,
@@ -81,7 +91,7 @@
       <recent name="C:\Users\NickS\OneDrive\Desktop\North Metro Tafe\Cluster - Advanced Programming\Python Project 1 - week 5\SRUS-NS-Games\app\hash" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.player">
+  <component name="RunManager" selected="Python tests.Python tests for player_list_test.TestPlayerList.test_display">
     <configuration name="player" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SRUS-NS-Games" />
       <option name="ENV_FILES" value="" />
@@ -121,7 +131,7 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for player_test.TestPlayer.test_player_name" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for player_list_test.TestPlayerList.test_display" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="SRUS-NS-Games" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -133,11 +143,11 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;player_test.TestPlayer.test_player_name&quot;" />
+      <option name="_new_target" value="&quot;player_list_test.TestPlayerList.test_display&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for player_test.TestPlayer.test_player_uid" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for player_test.TestPlayer" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="SRUS-NS-Games" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -149,16 +159,33 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;player_test.TestPlayer.test_player_uid&quot;" />
+      <option name="_new_target" value="&quot;player_test.TestPlayer&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests in player_list_test.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="SRUS-NS-Games" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test/player_list_test.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.player" />
+        <item itemvalue="Python tests.Python tests for player_list_test.TestPlayerList.test_display" />
         <item itemvalue="Python tests.Python tests for player_list_test.TestPlayerList.test_delete_by_key" />
-        <item itemvalue="Python tests.Python tests for player_test.TestPlayer.test_player_name" />
-        <item itemvalue="Python tests.Python tests for player_test.TestPlayer.test_player_uid" />
+        <item itemvalue="Python tests.Python tests in player_list_test.py" />
+        <item itemvalue="Python.player" />
+        <item itemvalue="Python tests.Python tests for player_test.TestPlayer" />
       </list>
     </recent_temporary>
   </component>
@@ -205,7 +232,15 @@
       <workItem from="1724046680188" duration="112000" />
       <workItem from="1724126508778" duration="2520000" />
       <workItem from="1724211765064" duration="70000" />
-      <workItem from="1724719149298" duration="2778000" />
+      <workItem from="1724719149298" duration="2817000" />
+      <workItem from="1724722912859" duration="551000" />
+      <workItem from="1724723628939" duration="623000" />
+      <workItem from="1724754799304" duration="5708000" />
+      <workItem from="1724901640180" duration="304000" />
+      <workItem from="1724902293957" duration="400000" />
+      <workItem from="1724902832528" duration="327000" />
+      <workItem from="1724903349162" duration="788000" />
+      <workItem from="1725265595142" duration="35000" />
     </task>
     <task id="LOCAL-00001" summary="2nd commit - upto step 5">
       <option name="closed" value="true" />
@@ -303,7 +338,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724720611431</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="print option to player.py">
+      <option name="closed" value="true" />
+      <created>1724721987339</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1724721987339</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -341,22 +384,24 @@
     <MESSAGE value="Updated private" />
     <MESSAGE value="add import player to player_node.py" />
     <MESSAGE value="Fix syntax error in PlayerNode key method and update unittest imports" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix syntax error in PlayerNode key method and update unittest imports" />
+    <MESSAGE value="print option to player.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="print option to player.py" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/player_list_py$.coverage" NAME=" Coverage Results" MODIFIED="1723780562281" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/player_list_py$.coverage" NAME=" Coverage Results" MODIFIED="1724901930025" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/SRUS_NS_Games$.coverage" NAME=" Coverage Results" MODIFIED="1722863893754" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/player_py$player_list.coverage" NAME="player_list Coverage Results" MODIFIED="1723451777705" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app" />
     <SUITE FILE_PATH="coverage/player_list_py$player_list.coverage" NAME="player_list Coverage Results" MODIFIED="1723697213784" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app" />
     <SUITE FILE_PATH="coverage/SRUS_NS_Games$player.coverage" NAME="player Coverage Results" MODIFIED="1722863856304" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app" />
     <SUITE FILE_PATH="coverage/hash_py$hash.coverage" NAME="hash Coverage Results" MODIFIED="1722934995443" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app" />
-    <SUITE FILE_PATH="coverage/player_list_test_py$.coverage" NAME=" Coverage Results" MODIFIED="1724046500767" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
-    <SUITE FILE_PATH="coverage/player_list_py$player.coverage" NAME="player Coverage Results" MODIFIED="1723690874174" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app" />
+    <SUITE FILE_PATH="coverage/player_list_test_py$.coverage" NAME=" Coverage Results" MODIFIED="1725265613131" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/player_list_test_py$player.coverage" NAME="player Coverage Results" MODIFIED="1724903039841" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app" />
+    <SUITE FILE_PATH="coverage/player_list_py$player.coverage" NAME="player Coverage Results" MODIFIED="1724901753209" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app" />
     <SUITE FILE_PATH="coverage/player_node_py$player_list.coverage" NAME="player_list Coverage Results" MODIFIED="1723435434311" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app" />
     <SUITE FILE_PATH="coverage/hash_py$pearson_hash.coverage" NAME="pearson_hash Coverage Results" MODIFIED="1722935296449" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app" />
     <SUITE FILE_PATH="coverage/player_node_py$player_node.coverage" NAME="player_node Coverage Results" MODIFIED="1723435344400" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app" />
     <SUITE FILE_PATH="coverage/SRUS_NS_Games$player_list.coverage" NAME="player_list Coverage Results" MODIFIED="1722863886101" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app" />
-    <SUITE FILE_PATH="coverage/player_node_py$.coverage" NAME=" Coverage Results" MODIFIED="1724720573238" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/player_node_py$.coverage" NAME=" Coverage Results" MODIFIED="1724759987240" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/player_py$.coverage" NAME=" Coverage Results" MODIFIED="1724127135489" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/player_py$player_node.coverage" NAME="player_node Coverage Results" MODIFIED="1723451790048" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app" />
     <SUITE FILE_PATH="coverage/player_node_py$player.coverage" NAME="player Coverage Results" MODIFIED="1724721844449" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app" />
