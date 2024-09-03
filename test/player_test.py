@@ -31,5 +31,16 @@ class TestPlayer(unittest.TestCase):
         player = Player("1", "John")
         self.assertEqual(player.name, "John")  # Check if the name is correct
 
+    def test_add_password(self):
+        player = Player("1", "John")
+        player.add_password("Banana123!")
+        self.assertTrue(player._password is not None) # Check if the password was hashed and stored
+
+    def test_verify_password(self):
+        player = Player("1", "John")
+        player.add_password("Banana123!")
+        self.assertTrue(player.verify_password("Banana123!")) # Correct password
+        self.assertFalse(player.verify_password("WrongPassword!")) # Incorrect password
+
 if __name__ == "__main__":
     unittest.main()  # Run the unit tests

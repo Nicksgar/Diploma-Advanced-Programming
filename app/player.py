@@ -11,6 +11,7 @@ __str__ is a special method that returns
 a human-readable string representation of the player object.
 
 """
+from argon2 import PasswordHasher
 
 class Player:
     def __init__(self, uid, name):
@@ -22,6 +23,19 @@ class Player:
         """
         self._uid = uid  # Private instance variable for player ID
         self._name = name  # Private instance variable for player name
+        self._password = None  # Placeholder for storing the hashed password
+        self._hasher = PasswordHasher()  # Initialize PasswordHasher
+
+    def add_password(self, plaintext_password):
+        self._password = self._hasher.hash(plaintext_password)
+        # This method will take a plaintext password, hash it using Argon2, and store the hashed password
+
+    def verify_password(self, plaintext_password):
+        try:
+            return self._hasher.verify(self._password, plaintext_password)
+        except:
+            return False
+        # This method will compare a provided password with the stored hash and return True if they match
 
     @property
     def uid(self):
