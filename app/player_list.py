@@ -11,6 +11,7 @@ is_empty method checks if the list is empty by verifying if the head pointer is 
 
 """
 
+from app.player import Player
 from app.player_node import PlayerNode
 
 class PlayerList:
@@ -73,21 +74,6 @@ class PlayerList:
             self._tail.next = None
         return removed_node
 
-    # def delete_by_key(self, key):
-    #     current = self._head
-    #     while current is not None:
-    #         if current.key == key:
-    #             if current == self._head:
-    #                 return self.delete_from_head()
-    #             elif current == self._tail:
-    #                 return self.delete_from_tail()
-    #             else:
-    #                 current.prev.next = current.next
-    #                 current.next.prev = current.prev
-    #                 return current
-    #         current = current.next
-    #     return None
-
     def delete_by_key(self, key):            # Corrected
         current = self._head
         while current:
@@ -105,25 +91,22 @@ class PlayerList:
         return None
 
     def display(self, forward=True):
-        result = []
         if forward:
+            print("Displaying list forward:")
             current = self._head
             while current:
                 prev_uid = current.prev.player.uid if current.prev else None
                 next_uid = current.next.player.uid if current.next else None
-                result.append(
-                    f"UID: {current.player.uid}, Name: {current.player.name}, Prev: {prev_uid}, Next: {next_uid}")
+                print(f"UID: {current.player.uid}, Name: {current.player.name}, Prev: {prev_uid}, Next: {next_uid}")
                 current = current.next
         else:
+            print("Displaying list backward:")
             current = self._tail
             while current:
                 prev_uid = current.prev.player.uid if current.prev else None
                 next_uid = current.next.player.uid if current.next else None
-                result.append(
-                    f"UID: {current.player.uid}, Name: {current.player.name}, Prev: {prev_uid}, Next: {next_uid}")
+                print(f"UID: {current.player.uid}, Name: {current.player.name}, Prev: {prev_uid}, Next: {next_uid}")
                 current = current.prev
-        return "\n".join(result)
-
 
     @property
     def head(self):
@@ -142,3 +125,11 @@ class PlayerList:
             PlayerNode: The tail node of the list.
         """
         return self._tail
+
+if __name__ == "__main__":
+    # Demonstrate basic functionality
+    list = PlayerList()
+    list.insert_at_head(Player("1", "Alice"))
+    list.insert_at_tail(Player("2", "Bob"))
+    list.display(forward=True)
+    list.display(forward=False)

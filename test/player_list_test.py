@@ -81,6 +81,16 @@ class TestPlayerList(unittest.TestCase):
         self.assertEqual(removed_node.player.uid, "2")
         self.assertTrue(player_list.is_empty())
 
+    def test_display_forward_and_backward(self):
+        # Test the display functionality.
+        self.player_list.insert_at_head(self.player1)
+        self.player_list.insert_at_tail(self.player2)
+        self.player_list.insert_at_tail(self.player3)
+
+        # Display the list forwards and backwards.
+        self.player_list.display(forward=True)
+        self.player_list.display(forward=False)
+
     def test_display(self):
         player_list = PlayerList()
         player1 = Player("1", "John")
@@ -133,20 +143,3 @@ class TestPlayerList(unittest.TestCase):
         if __name__ == "__main__":
             unittest.main()
 
-        """
-        The test checks if the list is empty initially.
-
-        It then tests inserting nodes into both an empty list and a non-empty list, 
-        ensuring that the head and tail pointers are correctly updated.
-        """
-
-    # The print functions werent printing correctly below because they
-    # where missing print before player_list.display(forward=True)
-
-    # Test display forward
-    # print("\nDisplaying list forward:")
-    # player_list.display(forward=True)
-
-    # Test display backward
-    # print("\nDisplaying list backward:")
-    # player_list.display(forward=False)

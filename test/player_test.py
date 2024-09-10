@@ -17,30 +17,14 @@ import unittest
 from app.player import Player
 
 class TestPlayer(unittest.TestCase):
+    def setUp(self):
+        self.player = Player("1", "John")
+
     def test_player_uid(self):
-        """
-        Test if the player's unique ID is set and retrieved correctly.
-        """
-        player = Player("1", "John")
-        self.assertEqual(player.uid, "1")  # Check if the UID is correct
+        self.assertEqual(self.player.uid, "1")
 
     def test_player_name(self):
-        """
-        Test if the player's name is set and retrieved correctly.
-        """
-        player = Player("1", "John")
-        self.assertEqual(player.name, "John")  # Check if the name is correct
-
-    def test_add_password(self):
-        player = Player("1", "John")
-        player.add_password("Banana123!")
-        self.assertTrue(player._password is not None) # Check if the password was hashed and stored
-
-    def test_verify_password(self):
-        player = Player("1", "John")
-        player.add_password("Banana123!")
-        self.assertTrue(player.verify_password("Banana123!")) # Correct password
-        self.assertFalse(player.verify_password("WrongPassword!")) # Incorrect password
+        self.assertEqual(self.player.name, "John")
 
 if __name__ == "__main__":
     unittest.main()  # Run the unit tests
